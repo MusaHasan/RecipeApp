@@ -37,9 +37,6 @@
         Opps, something went wrong. Please try again later
       </p>
     </section>
-    <section class="bg-[#f1f1f1] py-20">
-      <SignupForm />
-    </section>
   </main>
 </template>
 
@@ -51,4 +48,17 @@ import { type RecipeResponse } from "~/types/types";
 const { data, error } = await useFetch<RecipeResponse>(
   "https://dummyjson.com/recipes?limit=12"
 );
+
+useSeoMeta({
+  title: "Nuxtcipes",
+  description: "Recipes for you to cook!",
+  ogTitle: "Nuxtcipes",
+  ogDescription: "Recipes for you to cook!",
+  ogImage: "/nuxt-course-hero.png",
+  ogUrl: `http:localhost:3000`,
+  twitterTitle: "Nuxtcipes",
+  twitterDescription: "Recipes for you to cook!",
+  twitterImage: "/nuxt-course-hero.png",
+  twitterCard: "summary",
+});
 </script>
