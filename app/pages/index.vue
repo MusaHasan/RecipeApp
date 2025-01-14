@@ -44,10 +44,11 @@
 </template>
 
 <script setup lang="ts">
+import { type RecipeResponse } from "~/types/types";
 // const { data, error } = await useAsyncData("recipes", () =>
 //   $fetch("https://dummyjson.com/recipes?limit=12")
 // );
-const { data, error } = await useFetch(
+const { data, error } = await useFetch<RecipeResponse>(
   "https://dummyjson.com/recipes?limit=12"
 );
 </script>
