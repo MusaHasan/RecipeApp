@@ -7,11 +7,16 @@ export default defineNuxtConfig({
   },
 
   experimental: {
+    sharedPrerenderData: false,
     compileTemplate: true,
+    resetAsyncDataToUndefined: true,
     templateUtils: true,
     relativeWatchPaths: true,
-    resetAsyncDataToUndefined: true,
-    defaults: { useAsyncData: { deep: true } },
+    defaults: {
+      useAsyncData: {
+        deep: true,
+      },
+    },
   },
 
   unhead: { renderSSRHeadOptions: { omitLineBreaks: false } },
@@ -26,5 +31,8 @@ export default defineNuxtConfig({
     families: {
       Montserrat: true,
     },
+  },
+  typescript: {
+    strict: true,
   },
 });
