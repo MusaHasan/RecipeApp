@@ -1,4 +1,4 @@
-# Nuxt Minimal Starter
+![screencapture-localhost-3000-2025-01-15-01_47_36](https://github.com/user-attachments/assets/5b96f4f8-4753-4739-bb25-5cdba0d44c84)# Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
@@ -73,3 +73,6 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+Project Picks: ![Uploading screencapture-localhost-3000-2025-01-15-01_47_36.png…](![screencapture-localhost-3000-recipes-7-2025-01-15-01_48_15](https://github.com/user-attachments/assets/17d84446-94ee-430f-a27e-0f705cebdf19)
+
